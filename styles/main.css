@@ -1,0 +1,98 @@
+/* the HTML5 structural tags work in IE*/
+article, aside, figure, footer, header, nav, section { 
+	display: block;
+}
+html {
+	background-image: -moz-linear-gradient(top, white 0%, #000052 100%);
+	background: -webkit-linear-gradient(top, white 0%, #000052 100%);
+	background: -o-linear-gradient(top, white 0%, #000052 100%);
+	background: -linear-gradient(top, white 0%, #000052 100%);
+	background-repeat: repeat-x;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 87.5%;
+	width: 962px;
+	background-color: #F0FAFF;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border: 1px solid #FF3399;
+}
+section, aside, h1, h2, p, ul {
+	margin: 0;
+	padding: 0;
+}
+section, aside {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+h1 { font-size: 200%; }
+h2 { font-size: 150%; }
+
+ul {
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+li { padding-bottom: 0.25em; }
+p { padding-bottom: 0.5em; }
+em { font-weight: bold; }
+
+/* the styles for the header */
+header {
+	padding-bottom: 2em;
+	border-bottom: 2px solid #FF3399;
+}
+header h1 {
+	color: #B20047;
+	text-shadow: 2px 3px 0 #999999;
+	margin-left: 120px;
+	margin-bottom: 0.25em;
+}
+header h2 {
+	color: #0099FF;
+	font-style: italic;
+	margin-left: 120px;
+}
+header img {
+	float: left;
+}
+/* styles for the section */
+section {
+	width: 580px;
+	border-right: 2px solid #FF3399;
+	padding-right: 20px;	
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+section h1 {
+	margin-bottom: 0.35em;
+	color: #6600CC;
+}
+/* styles for the sidebar */
+aside {
+	width: 340px;
+	float: right;
+	padding-left: 20px;
+}
+aside h1 {
+	font-size: 125%;
+	padding-bottom: .5em;
+	color: #33CCCC;
+}
+aside p {
+	margin-bottom: .5em;
+}
+
+/* styles for the footer */
+footer {
+	clear: both;
+	margin-top: 2em;
+	border-top: 2px solid #FF3399;
+	padding-top: 0.7em;
+}
+footer p {
+	font-size: 80%;
+	text-align: right;
+}
